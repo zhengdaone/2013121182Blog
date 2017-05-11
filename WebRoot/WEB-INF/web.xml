@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>consumerServlet</servlet-name>
+    <servlet-class>servlet.consumerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>articleServlet</servlet-name>
+    <servlet-class>servlet.articleServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>articleManageServlet</servlet-name>
+    <servlet-class>servlet.articleManageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>articleDelServlet</servlet-name>
+    <servlet-class>servlet.articleDelServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>articleUpdServlet</servlet-name>
+    <servlet-class>servlet.articleUpdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>friendServlet</servlet-name>
+    <servlet-class>servlet.friendServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>consumerLoginServlet</servlet-name>
+    <servlet-class>servlet.consumerLoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>commentServlet</servlet-name>
+    <servlet-class>servlet.commentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>friendDelServlet</servlet-name>
+    <servlet-class>servlet.friendDelServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>friendAddServlet</servlet-name>
+    <servlet-class>servlet.friendAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>consumerAlterServlet</servlet-name>
+    <servlet-class>servlet.consumerAlterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>replyServlet</servlet-name>
+    <servlet-class>servlet.replyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>photoServlet</servlet-name>
+    <servlet-class>servlet.photoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>pCommentServlet</servlet-name>
+    <servlet-class>servlet.pCommentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>photoDelServlet</servlet-name>
+    <servlet-class>servlet.photoDelServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>photoManageServlet</servlet-name>
+    <servlet-class>servlet.photoManageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>searchServlet</servlet-name>
+    <servlet-class>servlet.searchServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BlogPhotoServlet</servlet-name>
+    <servlet-class>servlet.BlogPhotoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>pReplyServlet</servlet-name>
+    <servlet-class>servlet.pReplyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>myArticleReplyServet</servlet-name>
+    <servlet-class>servlet.myArticleReplyServet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>testServlet</servlet-name>
+    <servlet-class>servlet.testServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>consumerServlet</servlet-name>
+    <url-pattern>/consumer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>articleServlet</servlet-name>
+    <url-pattern>/article</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>articleManageServlet</servlet-name>
+    <url-pattern>/articleManage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>articleDelServlet</servlet-name>
+    <url-pattern>/articleDel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>articleUpdServlet</servlet-name>
+    <url-pattern>/articleUpd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>friendServlet</servlet-name>
+    <url-pattern>/friend</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>consumerLoginServlet</servlet-name>
+    <url-pattern>/consumerLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>commentServlet</servlet-name>
+    <url-pattern>/comment</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>friendDelServlet</servlet-name>
+    <url-pattern>/friendDel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>friendAddServlet</servlet-name>
+    <url-pattern>/friendAdd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>consumerAlterServlet</servlet-name>
+    <url-pattern>/consumerAlter</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>replyServlet</servlet-name>
+    <url-pattern>/reply</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>photoServlet</servlet-name>
+    <url-pattern>/photo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>pCommentServlet</servlet-name>
+    <url-pattern>/pComment</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>photoDelServlet</servlet-name>
+    <url-pattern>/photoDel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>photoManageServlet</servlet-name>
+    <url-pattern>/photoManage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>searchServlet</servlet-name>
+    <url-pattern>/search</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BlogPhotoServlet</servlet-name>
+    <url-pattern>/BlogPhoto</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>pReplyServlet</servlet-name>
+    <url-pattern>/pReply</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>myArticleReplyServet</servlet-name>
+    <url-pattern>/myArticleReply</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>testServlet</servlet-name>
+    <url-pattern>/test</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
